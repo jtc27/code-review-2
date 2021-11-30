@@ -4,7 +4,7 @@ musicians
 band pass filter
 - takes sound wave input
 input
-[60,10,45,60,1500] - elem are frequency
+[60,10,45,60,1500], 40, 1000 - elem are frequency
 
 1. array (sound wave) / int
 2. lower limit (optional) / int default 40
@@ -14,4 +14,4 @@ input
 
 
 output
-[60,40,45,60,1000]
+[60,40,45,60,1000], 40, 1000
